@@ -6,7 +6,7 @@ for dir in wrapped \
 ../artifacts \
 ../jbundle/jbundle-parent \
 ../../jbundle/jbundle \
-../jbundle/util/biorhythm \
+../util/biorhythm \
 ../../util/calendarpanel \
 ../../util/osgi \
 ../../util/osgi-webstart \
