@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>jbundle-parent</artifactId>
+    <groupId>org.jbundle.config</groupId>
+    <version>1.2.6-SNAPSHOT</version>
+    <relativePath>jbundle/jbundle-parent</relativePath>
+  </parent>
+
+  <artifactId>workspace</artifactId>
+  <version>0.7.7-SNAPSHOT</version>
+
+  <packaging>pom</packaging>
+  <name>workspace - top level project</name>
+  <description>Parent project for the entire framework</description>
+
+  <modules>
+    <module>jbundle</module>
+    <module>app</module>
+    <module>artifacts</module>
+  </modules>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <name>Nexus Snapshot Repository</name>
+      <url>${snapshotRepository}</url>
+      <uniqueVersion>true</uniqueVersion>
+    </snapshotRepository>
+    <repository>
+      <id>sonatype-nexus-staging</id>
+      <name>Nexus Release Repository</name>
+      <url>${releaseRepository}</url>
+    </repository>
+  </distributionManagement>
+
+  <scm>
+    <url>http://scm.jbundle.org/gitweb/scm/git/workspace</url>
+    <connection>scm:git:http://scm.jbundle.org/scm/git/workspace</connection>
+    <developerConnection>scm:git:ssh://scm.jbundle.org/scm/git/workspace</developerConnection>
+  </scm>
+
+</project>

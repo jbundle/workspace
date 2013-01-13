@@ -1,0 +1,57 @@
+[submodule "wrapped"]
+	path = wrapped
+	url = https://github.com/jbundle/wrapped
+[submodule "artifacts"]
+	path = artifacts
+	url = https://github.com/jbundle/artifacts
+[submodule "jbundle/jbundle"]
+	path = jbundle/jbundle
+	url = https://github.com/jbundle/jbundle
+[submodule "jbundle/util/util"]
+	path = jbundle/util/util
+	url = https://github.com/jbundle/util
+[submodule "jbundle/util/wsdl"]
+	path = jbundle/util/wsdl
+	url = https://github.com/jbundle/wsdl
+[submodule "jbundle/util/other"]
+	path = jbundle/util/other
+	url = https://github.com/jbundle/other
+[submodule "jbundle/app/office"]
+	path = jbundle/app/office
+	url = https://github.com/jbundle/office
+[submodule "jbundle/util/webapp"]
+	path = jbundle/util/webapp
+	url = https://github.com/jbundle/webapp
+[submodule "jbundle/view/swing"]
+	path = jbundle/view/swing
+	url = https://github.com/jbundle/swing
+[submodule "jbundle/view/javafx"]
+	path = jbundle/view/javafx
+	url = https://github.com/jbundle/javafx
+[submodule "jbundle/view/android"]
+	path = jbundle/view/android
+	url = https://github.com/jbundle/android
+[submodule "jbundle/util/osgi-webstart"]
+	path = jbundle/util/osgi-webstart
+	url = https://github.com/jbundle/osgi-webstart
+[submodule "jbundle/util/jcalendarbutton"]
+	path = jbundle/util/jcalendarbutton
+	url = https://github.com/jbundle/jcalendarbutton
+[submodule "jbundle/util/osgi"]
+	path = jbundle/util/osgi
+	url = https://github.com/jbundle/osgi
+[submodule "jbundle/util/calendarpanel"]
+	path = jbundle/util/calendarpanel
+	url = https://github.com/jbundle/calendarpanel
+[submodule "jbundle/util/biorythm"]
+	path = jbundle/util/biorythm
+	url = https://github.com/jbundle/biorhythm
+[submodule "jbundle/jbundle-parent"]
+	path = jbundle/jbundle-parent
+	url = https://github.com/jbundle/jbundle-parent
+[submodule "app/office"]
+	path = app/office
+	url = https://github.com/jbundle/office
+[submodule "jbundle/util/biorhythm"]
+	path = jbundle/util/biorhythm
+	url = https://github.com/jbundle/biorhythm

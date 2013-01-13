@@ -1,0 +1,26 @@
+# git clone ssh://csm.jbundle.org/scm/git/workspace
+git submodule init
+git submodule update
+
+for dir in wrapped \
+../artifacts \
+../jbundle/jbundle-parent \
+../../jbundle/jbundle \
+../util/biorhythm \
+../calendarpanel \
+../osgi \
+../osgi-webstart \
+../jcalendarbutton \
+../other \
+../util \
+../webapp \
+../wsdl \
+../../view/swing \
+../../view/javafx \
+../../view/android \
+../../../../app/office; do
+echo $dir
+cd $dir
+git checkout master
+done
+
