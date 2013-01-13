@@ -6,7 +6,7 @@ for dir in wrapped \
 ../artifacts \
 ../jbundle/jbundle-parent \
 ../../jbundle/jbundle \
-../jbundle/util/biorhythm \
+../util/biorhythm \
 ../../util/calendarpanel \
 ../../util/osgi \
 ../../util/osgi-webstart \
@@ -18,7 +18,7 @@ for dir in wrapped \
 ../../../jbundle/view/swing \
 ../../../jbundle/view/javafx \
 ../../../jbundle/view/android \
-../../../../app/office; do
+../../../app/office; do
 echo $dir
 cd $dir
 git checkout master

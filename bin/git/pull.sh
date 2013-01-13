@@ -17,7 +17,7 @@ for dir in wrapped \
 ../../../jbundle/view/swing \
 ../../../jbundle/view/javafx \
 ../../../jbundle/view/android \
-../../../../app/office; do
+../../../app/office; do
 echo $dir
 cd $dir
 git pull
