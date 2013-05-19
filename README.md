@@ -23,3 +23,4 @@ shell:source mvn:org.jbundle.config/jbundle-artifacts//shell/setup
 
 Now point your browser to<br/>
 <a href="http://localhost:8181">http://localhost:8181</a><br/>
+
