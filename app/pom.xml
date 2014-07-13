@@ -5,7 +5,7 @@
   <parent>
     <artifactId>jbundle-parent</artifactId>
     <groupId>org.jbundle.config</groupId>
-    <version>1.3.3-SNAPSHOT</version>
+    <version>1.3.8-SNAPSHOT</version>
     <relativePath>../jbundle/jbundle-parent</relativePath>
   </parent>
 
@@ -19,8 +19,8 @@
  
   <modules>
     <module>office</module>
-    <module>tourgeek-parent</module>
-    <module>tourgeek</module>
+    <!-- module>tourgeek-parent</module>
+    <module>tourgeek</module -->
   </modules>
 
 </project>
